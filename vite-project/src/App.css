@@ -73,9 +73,9 @@
 }
 
 .discordImage {
-  height: 300px∫;
+  height: 350px;
   position: absolute;
-  top: 54%;
+  top: 52%;
   left: 45%;
   z-index: 0;
 }
