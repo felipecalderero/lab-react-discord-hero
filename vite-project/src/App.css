@@ -1,0 +1,81 @@
+#root {
+  max-width: 100vi;
+  margin: 0;
+  padding: 0rem;
+  text-align: center;
+  overflow: hidden;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 100vi;
+  height: 100vh;
+  overflow: hidden;
+  background-color: blue;
+  padding: 0 40px;
+}
+
+.navbar {
+  width: 95%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 15px 0px 0 0px;
+}
+
+.logo {
+  height: 1.5em;
+}
+
+.mainText {
+  width: 50%;
+  margin: 0 0 0 0px;
+}
+
+.mainText h1 {
+  width: 65%;
+  margin: 80px 0 0 0px;
+  color: white;
+  font-size: 4rem;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  text-align: left;
+}
+
+.mainText p {
+  width: 85%;
+  margin: 50px 0 40px 0px;
+  color: white;
+  font-size: 1.2rem;
+  font-family: "Roboto", sans-serif;
+  text-align: left;
+  font-weight: 400;
+}
+
+.buttonWhite {
+  background-color: white;
+  color: black;
+  width: 200px;
+  border-radius: 30px;
+  height: 45px;
+}
+.buttonBlack {
+  background-color: black;
+  color: white;
+  width: 300px;
+  height: 45px;
+  border-radius: 30px;
+  margin: 25px 0;
+}
+
+.discordImage {
+  height: 300px∫;
+  position: absolute;
+  top: 54%;
+  left: 45%;
+  z-index: 0;
+}
